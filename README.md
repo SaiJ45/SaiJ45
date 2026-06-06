@@ -35,3 +35,20 @@ I build autonomous AI systems — pipelines where an LLM doesn't just answer a q
 ---
 
 ### Tech I work with daily
+Agentic AI   │ LangGraph · LangChain · ReAct · Multi-agent pipelines
+LLMs         │ LLaMA 3 · Groq · OpenAI API · Prompt Engineering
+Retrieval    │ FAISS · Sentence Transformers · RAG · AST Parsing
+Infra        │ Python · FastAPI · GitHub API · pytest · Git · AWS
+ML           │ Hugging Face · Scikit-learn · Pandas · NumPy
+
+---
+
+### Currently
+
+- AI Engineer Intern @ **Persistent Systems** (Feb 2026 – Present) — shipping agentic AI tools for developer workflows
+- Previously @ **Rikaian Technology** — built emotion-aware multilingual translation pipeline (LangChain + Hugging Face, rated above expectations by COO)
+- Open to **AI Engineer / Agentic AI / Generative AI** roles
+
+
+
+
