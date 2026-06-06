@@ -1,16 +1,37 @@
-## Hi there 👋
+<h1 align="center">Sai Jawalkar</h1>
+<h3 align="center">AI Engineer Intern @ Persistent Systems · Agentic AI · LangGraph · LLMs · RAG</h3>
 
-<!--
-**SaiJ45/SaiJ45** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a href="https://www.linkedin.com/in/sai-jawalkar-974901321/">LinkedIn</a> ·
+  <a href="mailto:saijawalkar787@gmail.com">Email</a> ·
+  Pune, India
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### What I build
+
+I build autonomous AI systems — pipelines where an LLM doesn't just answer a question, it **takes action**: cloning repos, generating code patches, running tests, and pushing PRs without a human in the loop.
+
+---
+
+### Shipped projects
+
+| Project | What it does | Stack |
+|---|---|---|
+| [AI Issue Solver](https://github.com/SaiJ45/Ai-issue-solver) | Reads a GitHub issue → generates a code fix → opens a PR. Zero manual steps. | LangGraph · Groq · FAISS · GitHub API |
+| [AI QA Agent](https://github.com/SaiJ45/Ai-QA-agent) | Reviews PRs → runs pytest → posts approve/reject on GitHub. Deterministic decision, no LLM in the verdict. | LangGraph · LLaMA 3.3 70B · Pydantic · GitHub API |
+| [Multi-Agent System](https://github.com/SaiJ45/Multi-Agent-System) | Combined pipeline: Issue Solver + QA Agent running end-to-end as one orchestrated workflow. | LangGraph · Groq · FAISS |
+
+---
+
+### How I think about systems
+
+- **Retrieval over memorization** — hybrid AST chunking + FAISS + keyword scoring beats pure semantic search on code
+- **Deterministic decisions** — QA pass/fail uses zero LLM; rule-based logic is auditable and reproducible
+- **Safety first** — file allowlists, syntax validation, scope verification, and retry caps before any code touches disk
+- **ReAct before acting** — Thought → Action → Observation loop forces the model to reason before generating patches
+
+---
+
+### Tech I work with daily
