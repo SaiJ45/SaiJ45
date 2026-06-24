@@ -43,9 +43,15 @@ ML           │ Hugging Face · Scikit-learn · Pandas · NumPy
 
 ---
 
+## Open Source Contributions
+
+| Project | Stars | PR | What I did |
+|---|---|---|---|
+| [santifer/career-ops](https://github.com/santifer/career-ops) | ⭐ 55k | [#1182](https://github.com/santifer/career-ops/pull/1182) ✅ Merged | Added `--skip-pdf` flag to reduce API token cost in batch mode |
+
 ### Currently
 
-- AI Engineer Intern @ **Persistent Systems** (Feb 2026 – Present) — shipping agentic AI tools for developer workflows
+- AI Engineer Mentee @ **Persistent Systems** (Feb 2026 – May 2026) — shipping agentic AI tools for developer workflows
 - Previously @ **Rikaian Technology** — built emotion-aware multilingual translation pipeline (LangChain + Hugging Face, rated above expectations by COO)
 - Open to **AI Engineer / Agentic AI / Generative AI** roles
 
