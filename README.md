@@ -1,5 +1,5 @@
 <h1 align="center">Sai Jawalkar</h1>
-<h3 align="center">AI Engineer Intern @ Persistent Systems · Agentic AI · LangGraph · LLMs · RAG</h3>
+<h3 align="center">AI Engineer · Agentic AI · LangGraph · LLMs · RAG</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sai-jawalkar-974901321/">LinkedIn</a> ·
