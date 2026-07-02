@@ -47,8 +47,9 @@ ML           │ Hugging Face · Scikit-learn · Pandas · NumPy
 
 | Project | Stars | PR | What I did |
 |---|---|---|---|
-| [santifer/career-ops](https://github.com/santifer/career-ops) | ⭐ 55k | [#1182](https://github.com/santifer/career-ops/pull/1182) ✅ Merged | Added `--skip-pdf` flag, reducing API token cost in batch processing |
-| [santifer/career-ops](https://github.com/santifer/career-ops) | ⭐ 55k | [#1211](https://github.com/santifer/career-ops/pull/1211) ✅ Merged | Added Antigravity CLI free-tier onboarding guidance + docs |
+| [santifer/career-ops](https://github.com/santifer/career-ops) | ⭐ 55k | [#1182](https://github.com/santifer/career-ops/pull/1182) ✅ Merged | Added `--skip-pdf` flag to reduce API token cost in batch processing |
+| [santifer/career-ops](https://github.com/santifer/career-ops) | ⭐ 55k | [#1211](https://github.com/santifer/career-ops/pull/1211) ✅ Merged | Added Antigravity CLI free-tier onboarding guidance + docs/FREE_TIER.md |
+| [santifer/career-ops](https://github.com/santifer/career-ops) | ⭐ 55k | [#1361](https://github.com/santifer/career-ops/pull/1361) ✅ Merged | Built seniority-tier classifier with optional skip_tiers filter — diagnosed and fixed CI failure independently |
 
 ### Experience
 
