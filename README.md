@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=Sai%20Jawalkar&fontSize=60&fontColor=E0AAFF&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Agentic%20Systems%20%7C%20LLM%20Pipelines&descAlignY=55&descSize=18" width="100%"/>
@@ -201,20 +202,6 @@ Built and deployed production-grade agentic AI systems for autonomous software e
 
 <br/>
 
-## ⟡ Coding Profiles
-
-<div align="center">
-
-<!-- Replace USERNAME in each badge below with your actual handle on each platform -->
-<a href="#"><img src="https://img.shields.io/badge/LeetCode-Add%20Handle-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/GeeksforGeeks-Add%20Handle-7C3AED?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/HackerRank-Add%20Handle-8B5CF6?style=for-the-badge&logo=hackerrank&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/CodeChef-Add%20Handle-6366F1?style=for-the-badge&logo=codechef&logoColor=white"/></a>
-
-</div>
-
-<br/>
-
 ## ⟡ GitHub Analytics
 
 <div align="center">
@@ -300,6 +287,5 @@ current_focus:
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=150&section=footer"/>
 
 </div>
-
 
 
