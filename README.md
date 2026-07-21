@@ -40,6 +40,9 @@ engineer:
     - Building RAG pipelines with FAISS, embeddings, and AST-aware retrieval
     - Shipping evaluation frameworks that turn "it works on my machine" into measurable, auditable AI
     - Backend engineering with FastAPI, structured outputs, and production monitoring
+    - Agentic developer tools for the open-source community
+    - Per-step token observability for LLM evaluation pipelines
+    - RAG pipelines with deeper AST-aware code understanding
   mindset: "Treat LLMs as components inside a system, not the system itself."
   currently: "AI Engineer Intern @ Persistent Systems Limited"
   open_to:
@@ -187,6 +190,37 @@ Built and deployed production-grade agentic AI systems for autonomous software e
 </div>
 
 <br/>
+
+## ⟡ Open Source Contributions
+
+<div align="center">
+
+| Project | Stars | PR | What I built |
+|---|:---:|---|---|
+| [santifer/career-ops](https://github.com/santifer/career-ops) | ⭐ 55k | [#1182](https://github.com/santifer/career-ops/pull/1182) ✅ Merged | Added `--skip-pdf` flag to batch runner — eliminates expensive PDF generation for triage-only runs, reducing API token cost on large batches |
+| [santifer/career-ops](https://github.com/santifer/career-ops) | ⭐ 55k | [#1211](https://github.com/santifer/career-ops/pull/1211) ✅ Merged | Built free-tier onboarding guidance anchored to Antigravity CLI — surfaces the free path when users mention cost during setup |
+| [santifer/career-ops](https://github.com/santifer/career-ops) | ⭐ 55k | [#1361](https://github.com/santifer/career-ops/pull/1361) ✅ Merged | Built seniority-tier classifier (`classify-tier.mjs`) with optional `skip_tiers` filter — diagnosed and fixed a CI failure independently without being asked |
+| [santifer/career-ops](https://github.com/santifer/career-ops) | ⭐ 55k | [#2022](https://github.com/santifer/career-ops/pull/2022) ✅ Merged | Built per-step token breakdown pipeline — `TokenAccumulator` class, multi-provider cost table, batch aggregation, security hardening via CodeRabbit review, 1802 tests passing |
+
+</div>
+
+<details>
+<summary><b>🔹 Featured: feat(pipeline) — per-step token breakdown (#2022)</b></summary>
+<br/>
+
+Implemented a feature promised to the career-ops community since April: instead of a single opaque token total, the pipeline now shows exactly where tokens and cost went — per step, per worker, and in aggregate.
+
+| Attribute | Detail |
+|---|---|
+| **Files created** | `utils/token-tracker.mjs` · `batch/aggregate-tokens.mjs` · `tests/token-tracker.test.mjs` |
+| **Engines wired** | openrouter-runner · openai-eval · ollama-eval · gemini-eval |
+| **Security** | Path traversal guard · NaN/negative cost protection · score-gate safeguard |
+| **Testing** | 1802 passing · 0 failures · 0 regressions |
+| **PR** | [#2022](https://github.com/santifer/career-ops/pull/2022) · Issue [#1979](https://github.com/santifer/career-ops/issues/1979) |
+
+Zero-token steps are labeled explicitly rather than silently omitted — the core selling point the feature was meant to deliver.
+
+</details>
 
 ## ⟡ Certifications
 
